@@ -1,0 +1,33 @@
+{
+  "id": "video_block",
+  "type": "SharedSlice",
+  "name": "VideoBlock",
+  "description": "VideoBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "video": {
+          "type": "Embed",
+          "config": {
+            "label": "Video",
+            "placeholder": ""
+          }
+        },
+        "caption": {
+          "type": "Text",
+          "config": {
+            "label": "Caption",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

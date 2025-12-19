@@ -1,0 +1,62 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "hunter",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Magna nostrud magna pariatur veniam ut proident. Amet aute dolore do veniam culpa."
+						}
+					}
+				]
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "although",
+				"type": "Text"
+			},
+			"button_link": {
+				"key": "2b95421d-bf4f-4095-8388-91b6f609cd0c",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "married"
+				}
+			},
+			"avatar": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+					"width": 3935,
+					"height": 5894
+				},
+				"url": "https://images.unsplash.com/photo-1587905069134-008460d7a636",
+				"width": 3935,
+				"height": 5894,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "maybe",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]
