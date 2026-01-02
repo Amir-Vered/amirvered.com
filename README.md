@@ -1,5 +1,6 @@
 # [amirvered.com](https://amirvered.com)
-
-The public fork of my portfolio website built as part of my personal brand development project <b>Y1Q1</b>.
-
-<i>TODO: Update README</i>
+<p>
+  The public fork of my portfolio website, built in SvelteKit, Prismic, Tailwind, GSAP, ThreeJS, Resend, Vercel, HTML, CSS, and Typescript. <br>
+  Learn more here: <br>
+  <a href="https://amirvered.com/blog/website">amirvered.com/blog/website</a>
+</p>
