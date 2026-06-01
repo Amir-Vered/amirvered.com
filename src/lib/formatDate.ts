@@ -1,16 +1,16 @@
 import type { DateField } from "@prismicio/client";
 
 export function formatDate(dateStr: DateField): string {
-    if (!dateStr) return '';
-    const date = new Date(dateStr);
+	if (!dateStr) return "";
 
-    // Options for formatting
-    const options: Intl.DateTimeFormatOptions = {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    };
+	const [year, month, day] = dateStr.split("-").map(Number);
 
-    return new Intl.DateTimeFormat('en-US', options).format(date);
+	const date = new Date(year, month - 1, day);
+
+	return new Intl.DateTimeFormat("en-US", {
+		weekday: "long",
+		year: "numeric",
+		month: "long",
+		day: "numeric"
+	}).format(date);
 }
